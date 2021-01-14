@@ -108,9 +108,9 @@
 		<div class="ui-block-b">
 			<h1>歡		迎		光		臨</h1>
 		</div>
-		<div>使用者名稱 :${name}</div>
-		<div>使用者ID :${id}</div>
-		<div>電話 :${telephone}</div>
+		<div>使用者名稱 :${user}</div>
+<%-- 		<div>使用者ID :${id}</div> --%>
+<%-- 		<div>電話 :${telephone}</div> --%>
 		<div>${msg}</div>
 		
 	</div>
@@ -123,7 +123,7 @@
 			<button id="delete" name="delete">刪除商品</button>
 			<button id="insert" name="insert">新增商品</button>
 			<br/>
-			<a id="update" href="<%=request.getContextPath()%>/userData.jsp">修改會員資料</a>
+<%-- 			<a id="update" href="<%=request.getContextPath()%>/userData.jsp">修改會員資料</a> --%>
 		</div>
 		<div class="ui-block-c"></div>
 	</div>
